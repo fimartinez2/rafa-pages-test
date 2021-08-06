@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rafa-pages-test/static/css/main.6be647c7.chunk.css",
-    "main.js": "/rafa-pages-test/static/js/main.bf6f6b62.chunk.js",
-    "main.js.map": "/rafa-pages-test/static/js/main.bf6f6b62.chunk.js.map",
+    "main.js": "/rafa-pages-test/static/js/main.91ae716a.chunk.js",
+    "main.js.map": "/rafa-pages-test/static/js/main.91ae716a.chunk.js.map",
     "runtime-main.js": "/rafa-pages-test/static/js/runtime-main.3a8d376c.js",
     "runtime-main.js.map": "/rafa-pages-test/static/js/runtime-main.3a8d376c.js.map",
     "static/css/2.63a150a4.chunk.css": "/rafa-pages-test/static/css/2.63a150a4.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.63a150a4.chunk.css",
     "static/js/2.2ac50383.chunk.js",
     "static/css/main.6be647c7.chunk.css",
-    "static/js/main.bf6f6b62.chunk.js"
+    "static/js/main.91ae716a.chunk.js"
   ]
 }
