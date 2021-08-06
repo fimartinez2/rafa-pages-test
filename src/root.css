@@ -1,0 +1,24 @@
+:root {
+  --rojo: #ed3b55;
+  --rojoOscuro: #ac043c;
+  --negro: #000000;
+  --verdeagua: #6efaf7;
+  --cyanClaro: #7cfdfa;
+  --azul: #4647f6;
+  --morado: #a285a5;
+  --morado2: #79017a;
+  --morado3: #51379c;
+  --moradoPaciente: #d31cf9;
+  --verde: #49a99a;
+  --verdeOscuro: #083740;
+  --verdeChillon: #01dd72;
+  --verdeCuidador: #7cdb78;
+  --rosadoClaro: #ffe5ef;
+  --amarillo: #f8b35d;
+  --amarilloCoordi: #e5b163;
+  --celeste2: #06b3ff;
+  --celesteVoluntario: #64b0fb;
+  --celeste: #c7fdfd;
+  --gris: #f8f8f8;
+  --grisoscuro: #747474;
+}

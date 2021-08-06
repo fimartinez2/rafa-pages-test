@@ -1,0 +1,953 @@
+
+@import "root.css";
+/* FONTS */
+h1, h2, h3, h4, p, span, text, .ant-steps-item-title, .ant-drawer-title {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*font-family: 'Lato',sans-serif;*/
+  /*font-family: 'Source Sans Pro',sans-serif;*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  /* color: var(--negro);*/
+}
+
+ 
+/* COLOR BUTTONS */
+/* .ant-btn-primary {
+  background-color: var(--verdeagua);
+} */
+
+/*.ant-btn {
+  background-color: var(--gris);
+}*/
+
+.ant-layout {
+  background-color: white;
+  background: white !important;
+}
+
+/*.rounded {
+  background-color: var(--rojoOscuro) !important;
+  border-bottom-left-radius: 50% 20% !important;
+  border-bottom-right-radius: 50% 20% !important;
+}*/
+
+.ant-btn:hover {
+  background-color: var(--gris) !important;
+  color: var(--grisoscuro) !important;
+  border-color: var(--rojoOscuro) !important;
+}
+
+.mobileHidden span {
+  color: white;
+}
+
+.mobileHidden span:hover {
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.mobileTitle {
+  text-align: center;
+  color: black;
+}
+
+/* HEADER */
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0px 30px;
+}
+
+.container-fluid-header {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 8px 30px;
+  background-color: var(--rojoOscuro);
+  /*border-bottom-left-radius: 50% 20% !important;
+  border-bottom-right-radius: 50% 20% !important;*/
+}
+
+.rounded {
+  background-color: var(--rojoOscuro);
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 13%);
+  position: absolute;
+  z-index: 0;
+  height: 800px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.mainLayout .ant-layout-header {
+  background: transparent;
+  padding: 0;
+  line-height: 1.6;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.ant-layout-header {
+  z-index: 999;
+}
+
+.mainLayout {
+  height: 100%;
+  width: 100%;
+} 
+
+.heroBlock {
+  background: var(--rojoOscuro);
+  background: linear-gradient(90deg, var(--rojoOscuro) 40%, var(--morado3) 100%);
+  /*background-color: var(--rojoOscuro);*/
+  flex: 1;
+  width: 100%;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.heroBlock2, .heroBlock4 {
+  flex: 1;
+  width: 100%;
+  max-height: 430px;
+  min-height: 430px;
+  display: block;
+}
+
+.heroBlock2reemplazo,  .heroBlock3reemplazo{
+  flex: 1;
+  width: 100%;
+  max-height: 430px;
+  min-height: 430px;
+  display: none;
+  padding-top: 2vh;
+  vertical-align: middle;
+}
+
+.heroBlock3reemplazo {
+  background-color: #f5f2ff;
+  max-height: 510px;
+  min-height: 510px;
+}
+
+.heroBlock3 {
+  background-color: #f5f2ff;
+  flex: 1;
+  width: 100%;
+  max-height: 510px;
+  min-height: 510px;
+  display: block;
+}
+
+.heroBlock4 {
+  max-height: 430px;
+  min-height: 430px;
+}
+
+.section2 {
+  flex: 1;
+  max-height: 150px;
+  min-height: 150px;
+  padding-left: 4vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.section3 {
+  flex: 1;
+  max-height: 150px;
+  min-height: 150px;
+  padding-right: 4vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.footer {
+  flex: 1;
+  max-height: 150px;
+  min-height: 150px;
+  background-color: var(--gris);
+}
+
+.heroElements {
+  /*flex: 1;*/
+  position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-40%);
+}
+
+.heroText {
+  position: relative;
+  width: 60%;
+  text-align: left;
+  margin-left: 5vw;
+}
+
+.imgHome {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: 6vw;
+}
+
+.imgHome2, .imgHome3 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.imgHome2reemplazo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.divImgHome2 {
+  margin-left: 10vw ;
+}
+
+.divImgHome3 {
+  margin-right: 10vw ;
+}
+
+.heroText h2, .heroText p {
+  color: var(--gris);
+}
+
+.heroBlock p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 2vh 5vw;
+}
+
+.heroBlock h2 {
+  font-weight: 500;
+}
+
+.textSection2, .textSection2reemplazo, .textSection3 {
+  color: var(--morado3);
+  font-size: 24px;
+  margin-right: 10vw;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.textSection3 {
+  margin-right: 0vw;
+  text-align: right;
+  margin-left: 10vw;
+}
+
+.textSection2reemplazo {
+  text-align: center;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.testimonios {
+  color: var(--morado3);
+  font-size: 36px;
+  margin-top: 3vh;
+}
+
+.testimoniosText {
+  color: var(--morado3)
+}
+
+.videoTestimonio {
+  width: 300px;
+  background-color: #f5f2ff;
+}
+
+body{
+  all: revert;
+}
+
+body{
+  background-color: white;
+}
+
+/* REGISTER */
+.title-register {
+  color: "#747474";
+  font-size: "40px";
+  font-weight: "bold";
+  text-align: "center";
+  line-height: "2rem";
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+  border-color: var(--rojoOscuro);
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  border-color: var(--rojoOscuro);
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon{
+  background-color:  var(--rojoOscuro);
+}
+
+.ant-radio-button-wrapper, .ant-radio-button-wrapper-checked {
+  border-radius: 10px !important;
+  color: var(--negro) !important;
+  padding-top: 7px !important;
+}
+
+.ant-radio-button-wrapper:hover, .ant-radio-button-wrapper:focus{
+  /*box-shadow: 5px 11px 20px 5px rgba(64,64,64,0.2);*/
+  box-shadow: 0 0.5em 0.5em -0.4em var(--grisoscuro);
+  transform: translateY(-0.25em);
+}
+
+.ant-radio-button-wrapper-disabled {
+  opacity: 0.5 !important; 
+}
+
+.paciente .ant-radio-button-wrapper {
+  background: var(--moradoPaciente) !important;
+  border-color: var(--moradoPaciente) !important;
+}
+
+.cuidador .ant-radio-button-wrapper {
+  background: var(--verdeCuidador) !important;
+  border-color: var(--verdeCuidador) !important;
+}
+
+.voluntario .ant-radio-button-wrapper {
+  background: var(--celesteVoluntario) !important;
+  border-color: var(--celesteVoluntario) !important;
+}
+
+.comunitario .ant-radio-button-wrapper, .salud .ant-radio-button-wrapper {
+  background: var(--celesteVoluntario) !important;
+  border-color: var(--celesteVoluntario) !important;
+}
+
+.paciente, .cuidador, .voluntario, .comunitario, .salud {
+  display:inline;
+}
+
+.ant-radio-button-wrapper span {
+  color: white;
+}
+/*
+.ant-radio-button-wrapper-checked {
+  background:  var(--verdeagua) !important;
+  border: var(--verdeagua) !important;
+  border-color: var(--verdeagua) !important;
+  background-color: var(--verdeagua) !important;
+}
+*/
+.ant-radio-button-wrapper-checked::before, .ant-radio-button-wrapper::before {
+  background-color: white !important;
+  border-radius: 10px !important;
+}
+
+.imgPaciente {
+  background: url('./img/general/paciente.png') no-repeat;
+}
+
+.imgCuidador {
+  background: url('./img/general/cuidador.png') no-repeat;
+}
+
+.imgVoluntario {
+  background: url('./img/general/voluntario.png') no-repeat;
+}
+
+.imgComunitario {
+  background: url('./img/general/Voluntario\ C.png') no-repeat;
+}
+
+.imgSalud {
+  background: url('./img/general/Voluntario\ S.png') no-repeat;
+}
+
+.imgEspiritual {
+  background: url('./img/general/espiritual.png') no-repeat;
+}
+
+.imgSocial {
+  background: url('./img/general/social.png') no-repeat;
+}
+
+.imgPractico {
+  background: url('./img/general/practico.png') no-repeat;
+}
+
+.imgPaciente, .imgCuidador, .imgVoluntario {
+  background-position: center center;
+  background-size: 135%;
+  opacity: 1;
+  height: 50px; 
+}
+
+.imgComunitario, .imgSalud {
+  background-position: center center;
+  background-size: 80%;
+  opacity: 1;
+  height: 50px; 
+}
+
+.imgEspiritual, .imgSocial, .imgPractico {
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  height: 50px; 
+}
+
+.comunitario .ant-radio-button-wrapper-checked, .paciente .ant-radio-button-wrapper-checked, 
+.cuidador .ant-radio-button-wrapper-checked, .voluntario .ant-radio-button-wrapper-checked,
+.salud .ant-radio-button-wrapper-checked {
+  border-radius: 30px !important;
+}
+
+#basic_acompanamiento .ant-radio-button-wrapper-checked {
+  background: var(--amarillo) !important;
+  border-color: var(--amarillo) !important;
+}
+
+#basic_acompanamiento p {
+  color: black;
+}
+/*
+.steps-action .ant-btn:hover {
+  background-color: var(--gris) !important;
+  color: var(--grisoscuro) !important;
+  border-color: var(--rojo) !important;
+}
+*/
+.texto-register {
+  color: var(--negro);
+  text-align: justify;
+}
+
+.radio-text {
+  line-height: 1rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--verde) !important;
+  border-color: var(--verde) !important;
+}
+
+/* LOGIN */
+.buttonLogin .ant-btn:hover {
+  background-color: var(--gris) !important;
+  color: var(--negro) !important;
+  border-color: var(--rojoOscuro) !important;
+}
+
+.ant-btn:hover {
+  color: var(--negro) !important;
+}
+
+.buttonLogin /*.ant-btn*/ {
+  color: white;
+}
+
+/* DRAWER */
+.ant-drawer-content {
+  background-color: var(--morado3) !important;
+}
+
+.ant-drawer-body .ant-btn {
+  background-color: transparent !important;  
+}
+
+.ant-drawer-title {
+  font-weight: bold !important;
+  color: var(--morado3) !important;
+}
+
+.ant-btn-link:hover {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.ant-btn-link span {
+  color: white;
+}
+
+.ant-btn-link span::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .ant-btn-link span:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+/* PROFILE */
+.profileNumbersVolunteer {
+  background: var(--celesteVoluntario);
+  padding: 30px;
+}
+
+.card-volunteers button {
+  background-color: var(--celesteVoluntario) !important;
+  border-color: var(--celesteVoluntario) !important;
+}
+
+.profileNumbersCaregiver {
+  background: var(--verdeCuidador);
+  padding: 30px;
+  display: none;
+}
+
+.card-caregivers button {
+  background-color: var(--verdeCuidador) !important;
+  border-color: var(--verdeCuidador) !important;
+}
+
+.profileNumbersPatient {
+  background: var(--moradoPaciente);
+  padding: 30px;
+}
+
+.card-patients button {
+  background-color: var(--moradoPaciente) !important;
+  border-color: var(--moradoPaciente) !important;
+}
+
+.profileNumbersCoordinator {
+  background: var(--amarilloCoordi);
+  padding: 30px;
+}
+
+.card-coordinators button {
+  background-color: var(--amarilloCoordi) !important;
+  border-color: var(--amarilloCoordi) !important;
+}
+
+.profileNumbersVolunteer .ant-card {
+  width: 200px;
+  max-width: 200px;
+}
+
+.mobileHidden .menuText {
+  color: black !important;
+}
+
+.cardPatient .ant-btn-link span {
+  color: black !important; 
+}
+
+.cardPatient .ant-btn-link:hover span{
+  color: grey !important;
+}
+
+.icon-wrapper {
+  position: relative;
+  padding: 0px 30px;
+}
+
+.icon-wrapper .anticon {
+  position: absolute;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
+.icon-wrapper .anticon:first-child {
+  left: 0;
+}
+
+.icon-wrapper .anticon:last-child {
+  right: 0;
+}
+
+.site-calendar-demo-card {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+
+.site-calendar-demo-card .ant-radio-group {
+  display: none;
+}
+
+.p-align {
+  text-align: center;
+  line-height: 1.5rem;
+}
+/*
+.ant-picker-cell-inner, .ant-picker-calendar-date {
+  background-color: var(--amarillo);
+}
+*/
+.line-calendar {
+  width: 100%;
+  height: 5px;
+  background-color: var(--amarillo);
+  /*position: relative;*/
+}
+
+.card-eval a span{
+  color: var(--verde) !important;
+}
+
+/* STEPS */
+.steps-header {
+  width: 80%;
+  margin-bottom: 25px;
+  margin-top: 8px;
+}
+
+.ant-steps-item-process .ant-steps-icon, .ant-steps-item-finish .ant-steps-icon {
+  color: var(--morado3) !important;
+  border-color: var(--morado3) !important;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  font-weight: bold;
+  color: var(--morado3) !important;
+}
+
+.ant-steps-item-process .ant-steps-item-title::after, .ant-steps-item-finish .ant-steps-item-title::after {
+  background-color: var(--morado3) !important;
+}
+
+.site-description-item-profile-wrapper {
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 18px;
+  line-height: 1.5715;
+}
+
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes lds-circle {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+[data-theme='compact'] .site-description-item-profile-wrapper {
+  font-size: 12px;
+  line-height: 1.66667;
+}
+
+.ant-drawer-body p.site-description-item-profile-p {
+  display: block;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  line-height: 1.5715;
+}
+
+[data-theme='compact'] .ant-drawer-body p.site-description-item-profile-p {
+  font-size: 14px;
+  line-height: 1.66667;
+}
+
+.site-description-item-profile-p-label {
+  display: inline-block;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.hidden {
+  display: none;
+}
+.ant-menu-inline .ant-menu-item::after{
+  border-right: 3px solid var(--morado3) !important;
+}
+
+.ant-menu-item-selected{
+  color: var(--morado3) !important;
+  background-color: #f5f2ff !important;
+}
+
+.ant-menu-item-selected a {
+  color: var(--morado3) !important;
+}
+
+.ant-menu-item a:hover {
+  color: var(--morado3) !important;
+}
+/* RESPONSIVE */
+
+.mobileHidden {
+  display: block;
+}
+
+.homeTextMobile {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.headerProfile {
+  display: block;
+}
+
+.headerProfileReemplazo {
+  display: none;
+}
+
+
+.drawer {
+  display: none;
+}
+
+.avatarProfile {
+  display: block;
+}
+
+.table-v-reemplazo {
+  display: none;
+}
+
+.table-v-reemplazo2 {
+  display: none;
+}
+
+.table-v {
+  display: block;
+}
+
+@media only screen and (max-width: 641px) {
+  .table-v-reemplazo {
+    display: block;
+  }
+
+  .table-v {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .table-v-reemplazo2 {
+    display: block;
+  }
+
+  .table-v-reemplazo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /*.pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1);
+  }
+  */
+  .drawer {
+    display: block;
+  }
+
+  .mobileTitle {
+    text-align: center !important;
+    line-height: 1.5rem !important;
+    font-size: 20px !important;
+  }
+  
+  .mobileHidden {
+    display: none;
+  }
+
+  .homeTextMobile {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .heroBlock2, .heroBlock3 {
+    display: none;
+  }
+
+  .heroBlock2reemplazo, .heroBlock3reemplazo {
+    display: block;
+  }
+
+  .textSection2reemplazo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .textSection2reemplazo {
+    font-size: 16px;
+  }
+
+  .profileNumbersVolunteer .ant-card {
+    width: 150px;
+    max-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  .headerProfile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .avatarProfile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .heroText {
+    position: relative;
+    width: 60%;
+  }
+
+  .imgHome {
+    margin-left: 2vw;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .heroText {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin-left: 0vw;
+  }
+
+  .heroText h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .imgHome {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heroText h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }}
+
+.ant-layout-footer{
+  background-color: white;
+
+}
+
+/* LOADER */
+
+.loader {
+  color: var(--rojoOscuro);
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+
+.ant-popover-buttons .ant-btn-primary {
+  background-color: var(--rojoOscuro) !important;
+}
