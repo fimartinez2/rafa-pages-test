@@ -91,7 +91,7 @@ function Principal(def) {
 
   return (
     <div>
-      <Router basename="/rafa-pages-test">
+      <Router>
         <HeaderApp />
         <Layout>
           <Layout style={{ height: "100%" }}>
