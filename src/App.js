@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/rafa-pages-test">
           <AppHome />
         </Route>
         <Route exact path="/login">
