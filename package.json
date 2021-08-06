@@ -2,7 +2,7 @@
   "name": "rafa-app-frontend",
   "homepage": "https://fimartinez2.github.io/rafa-pages-test/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@testing-library/jest-dom": "^5.11.4",
