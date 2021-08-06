@@ -262,52 +262,75 @@ function Principal(def) {
                   border: "0px",
                 }}
               >
-                <Route exact path="/profile" component={Profile} />
-                <Route exact path="/help-board" component={HelpBoard} />
-                <Route path="/form-help" component={NewHelp} />
                 <Route
                   exact
-                  path="/patients-volunteers"
+                  path="/rafa-pages-test/profile"
+                  component={Profile}
+                />
+                <Route
+                  exact
+                  path="/rafa-pages-test/help-board"
+                  component={HelpBoard}
+                />
+                <Route path="/rafa-pages-test/form-help" component={NewHelp} />
+                <Route
+                  exact
+                  path="/rafa-pages-test/patients-volunteers"
                   component={PatientsVolunteer}
                 />
                 <Route
                   exact
-                  path="/register-requests"
+                  path="/rafa-pages-test/register-requests"
                   component={RegisterRequests}
                 />
                 <Route
                   exact
-                  path="/volunteer-requests"
+                  path="/rafa-pages-test/volunteer-requests"
                   component={VolunteerRequests}
                 />
                 <Route
                   exact
-                  path="/volunteers-coordinators"
+                  path="/rafa-pages-test/volunteers-coordinators"
                   component={VolunteersCoordinator}
                 />
                 <Route
-                  path="/volunteers-coordinators/new-ban/:id"
+                  path="/rafa-pages-test/volunteers-coordinators/new-ban/:id"
                   component={NewBanVolunteer}
                 />
-                <Route exact path="/activities" component={Activities} />
                 <Route
-                  path="/patients-volunteers/:id/new-activity"
+                  exact
+                  path="/rafa-pages-test/activities"
+                  component={Activities}
+                />
+                <Route
+                  path="/rafa-pages-test/patients-volunteers/:id/new-activity"
                   component={NewActivity}
                 />
-                <Route path="/activities/:id/report" component={Report} />
-                <Route exact path="/users-cesfam" component={UsersCesfam} />
                 <Route
-                  path="/users-cesfam/new-ban/:id"
+                  path="/rafa-pages-test/activities/:id/report"
+                  component={Report}
+                />
+                <Route
+                  exact
+                  path="/rafa-pages-test/users-cesfam"
+                  component={UsersCesfam}
+                />
+                <Route
+                  path="/rafa-pages-test/users-cesfam/new-ban/:id"
                   component={NewBanUser}
                 />
                 <Route
-                  path="/activities/eval-activity/:id"
+                  path="/rafa-pages-test/activities/eval-activity/:id"
                   component={EvalActivity}
                 />
-                <Route exact path="/reports" component={ReportsPatient} />
                 <Route
                   exact
-                  path="/patients-coordinators"
+                  path="/rafa-pages-test/reports"
+                  component={ReportsPatient}
+                />
+                <Route
+                  exact
+                  path="/rafa-pages-test/patients-coordinators"
                   component={PatientsCoordinator}
                 />
               </Card>
